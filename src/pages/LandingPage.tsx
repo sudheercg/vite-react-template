@@ -1,9 +1,9 @@
 import Hero from "../components/Hero";
-import Features from "../components/Features";
 import ProblemStatement from "../components/ProblemStatement";
+import Features from "../components/Features";
 import Footer from "../components/Footer";
 
-const LandingPage = () => {
+export default function LandingPage() {
   return (
     <>
       <Hero />
@@ -12,6 +12,4 @@ const LandingPage = () => {
       <Footer />
     </>
   );
-};
-
-export default LandingPage;
+}
